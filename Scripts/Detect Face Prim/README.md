@@ -1,0 +1,1 @@
+For Opensim users, you will need to upload the number texture, then copy its UUID into the script in the appropriate location.

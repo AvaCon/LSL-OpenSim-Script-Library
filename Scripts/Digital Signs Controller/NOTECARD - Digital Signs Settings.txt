@@ -1,0 +1,19 @@
+//  This is a template notecard containing the current settings information for all Digital Signs on the region.
+//  Each Digital Sign has an ID in it's prim Description field in the format ID: MyStringID
+//  In this notecard you can target one or more Digital Sign IDs and send them settings data.
+//  The format is:
+//  MyStringID : TextureUUID
+//   ....one per line. MyStringID is the Sign's ID string, TextureUUID is the UUID of a texture that the sign should display.
+ 
+//  The data below is what is in the region at the moment and is provided as a template.
+//  You should edit this notecard to substitute new settings for each sign ID, then rename it to 'Digital Signs Settings'
+//  before you *replace* it back in the Controller's inventory.
+//  Please look out for signs that currently have the same ID, but different textures.
+//  You'll *will* need to fix the ID on these signs locally if you're sure the textures should be different, because we'll
+//  overwrite them all by the (last) ID read from this file when you hit the 'Program' button!
+ 
+Welcome Kiosk : 20bc0a88-89d6-44ce-8507-add3bec734b2
+Track Banner : 20bc0a88-89d6-44ce-8507-add3bec734b2
+Streetlight Banner : 20bc0a88-89d6-44ce-8507-add3bec734b2
+OSCC Banner :  20bc0a88-89d6-44ce-8507-add3bec734b2
+Booth Floor : 20bc0a88-89d6-44ce-8507-add3bec734b2
