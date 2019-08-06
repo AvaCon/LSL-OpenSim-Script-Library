@@ -8,6 +8,7 @@ default{
       }else{
         llStopAnimation(animation); // stop the started animation
         llResetScript(); // release the avatar animation permissions
+      }
    }
    
    run_time_permissions(integer perm){
